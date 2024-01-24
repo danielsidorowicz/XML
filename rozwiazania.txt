@@ -72,4 +72,8 @@
 
 19.
 
-//person[@id=//salary[text()>=20000]/../links/manager]
+//salary[text()>=20000]/../links/manager
+
+20.
+
+//salary[text()>=20000]/../links/manager[text()="EMP01"]
